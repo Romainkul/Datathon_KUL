@@ -5,6 +5,8 @@
 #### **1.1. Language Classification**
 - **Objective:**  
   Verify and correct the language labels (Dutch, French, German) in the dataset.
+  - delete the doubles
+  - correct the flawed formats 
 - **Approach:**  
   - **Multilingual BERT or LLMs:**  
     Use a pre-trained multilingual language model (e.g., multilingual BERT) or an LLM (e.g., GPT-4) to automatically classify each OCR-extracted text.
